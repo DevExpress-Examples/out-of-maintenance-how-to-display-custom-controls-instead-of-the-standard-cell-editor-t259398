@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/SpreadsheetCustomization/Form1.cs) (VB: [Form1.vb](./VB/SpreadsheetCustomization/Form1.vb))
+<!-- default file list end -->
 # How to display custom controls instead of the standard cell editor
 
 
