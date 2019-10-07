@@ -10,9 +10,9 @@ namespace SpreadsheetCustomization {
         IWorkbook workbook;
         Worksheet worksheet;
 
-        Range dateColumn;
-        Range discountColumn;
-        Range categoryColumn;
+        CellRange dateColumn;
+        CellRange discountColumn;
+        CellRange categoryColumn;
 
         DateEdit dateEdit;
         LookUpEdit lookUpEdit;
