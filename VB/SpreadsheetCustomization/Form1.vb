@@ -12,9 +12,9 @@ Namespace SpreadsheetCustomization
         Private workbook As IWorkbook
         Private worksheet As Worksheet
 
-        Private dateColumn As Range
-        Private discountColumn As Range
-        Private categoryColumn As Range
+        Private dateColumn As CellRange
+        Private discountColumn As CellRange
+        Private categoryColumn As CellRange
 
         Private dateEdit As DateEdit
         Private lookUpEdit As LookUpEdit
