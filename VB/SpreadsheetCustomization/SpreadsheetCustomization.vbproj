@@ -50,40 +50,6 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v15.1.Core" />
-    <Reference Include="DevExpress.Data.v15.1" />
-    <Reference Include="DevExpress.DataAccess.v15.1" />
-    <Reference Include="DevExpress.DataAccess.v15.1.UI" />
-    <Reference Include="DevExpress.Office.v15.1.Core" />
-    <Reference Include="DevExpress.Printing.v15.1.Core" />
-    <Reference Include="DevExpress.RichEdit.v15.1.Core" />
-    <Reference Include="DevExpress.Spreadsheet.v15.1.Core" />
-    <Reference Include="DevExpress.Utils.v15.1" />
-    <Reference Include="DevExpress.Utils.v15.1.UI" />
-    <Reference Include="DevExpress.XtraBars.v15.1" />
-    <Reference Include="DevExpress.XtraCharts.v15.1.Wizard" />
-    <Reference Include="DevExpress.XtraCharts.v15.1" />
-    <Reference Include="DevExpress.XtraEditors.v15.1" />
-    <Reference Include="DevExpress.XtraGrid.v15.1" />
-    <Reference Include="DevExpress.XtraNavBar.v15.1" />
-    <Reference Include="DevExpress.XtraPrinting.v15.1" />
-    <Reference Include="DevExpress.XtraRichEdit.v15.1" />
-    <Reference Include="DevExpress.XtraSpreadsheet.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v15.1" />
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System.Collections.Generic" />
     <Import Include="System.Collections" />
@@ -94,6 +60,43 @@
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
     <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v19.2.Core" />
+    <Reference Include="DevExpress.Data.v19.2" />
+    <Reference Include="DevExpress.DataAccess.v19.2" />
+    <Reference Include="DevExpress.DataAccess.v19.2.UI" />
+    <Reference Include="DevExpress.Office.v19.2.Core" />
+    <Reference Include="DevExpress.Pdf.v19.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Export" />
+    <Reference Include="DevExpress.Printing.v19.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Core" />
+    <Reference Include="DevExpress.Spreadsheet.v19.2.Core" />
+    <Reference Include="DevExpress.Utils.v19.2" />
+    <Reference Include="DevExpress.Utils.v19.2.UI" />
+    <Reference Include="DevExpress.XtraBars.v19.2" />
+    <Reference Include="DevExpress.XtraCharts.v19.2.Wizard" />
+    <Reference Include="DevExpress.XtraCharts.v19.2" />
+    <Reference Include="DevExpress.XtraEditors.v19.2" />
+    <Reference Include="DevExpress.XtraGrid.v19.2" />
+    <Reference Include="DevExpress.XtraNavBar.v19.2" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2" />
+    <Reference Include="DevExpress.Images.v19.2" />
+    <Reference Include="DevExpress.XtraRichEdit.v19.2" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v19.2, Version=19.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v19.2" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.vb">
@@ -123,6 +126,7 @@
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My</CustomToolNamespace>
     </None>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
